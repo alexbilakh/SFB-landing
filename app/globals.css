@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss/tailwind.css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+  root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  margin: auto;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../public/font/inter/Inter-Regular.ttf");
+}
+
+.font-inter {
+  font-family: "inter";
+}
+
+
+.bg-custom-radial-gradient-red {
+  background: radial-gradient(733.26% 141.42% at 100% 0%, #FF5733 0%, #A40714 91.84%);
+}
+
+.bg-custom-radial-gradient-purple {
+  background: radial-gradient(76.01% 85.78% at 42.3% 31.63%, #59008B 0%, #210033 100%);
+}
+
+.slick-dots {
+  position: absolute!important;
+  bottom: 20px!important;
+}
+
+@media (max-width: 420px) {
+  .slick-dots {
+    display: none!important;
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 15px!important;
+  color: white!important;
+}
