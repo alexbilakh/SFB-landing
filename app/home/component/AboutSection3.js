@@ -15,7 +15,7 @@ const AboutSection1 = () => {
       >
         <div className="px-[50px]">
           <div
-            className="bg-[url(/image/landing/background.png)] bg-no-repeat bg-center bg-cover w-full 2xl:py-[44px] py-[18px] rounded-[20px]"
+            className="bg-[url(/image/landing/background.png)] bg-no-repeat bg-center bg-cover w-full 2xl:py-[44px] sm:py-[18px] py-0 rounded-[20px]"
           >
             <div className="-mx-[50px]">
               <div
@@ -62,8 +62,9 @@ const AboutSection1 = () => {
                   </span>
                 </div>
                 <h2
+                  data-aos="fade-up"
                   className={classNames(
-                    "text-[24px] text-white font-semibold font-inter",
+                    "text-[24px] text-white font-semibold font-inter tracking-[-2.24px]",
                     "sm:text-[26px]",
                     "2xl:text-[50px]"
                   )}
@@ -76,7 +77,7 @@ const AboutSection1 = () => {
                     "sm:flex-row sm:justify-between sm:items-center"
                   )}
                 >
-                  <div className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[40%]">
+                  <div data-aos="fade-right" data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[40%]">
                     <Image
                       src={"/image/landing/icon7.svg"}
                       alt="icon"
@@ -105,10 +106,12 @@ const AboutSection1 = () => {
                     </p>
                   </div>
                   <Image
-                    src={"/image/landing/sub-img1.svg"}
+                    src={"/image/landing/informed decision.svg"}
                     alt="sub1"
                     width={0}
                     height={0}
+                    data-aos-delay="300"
+                    data-aos="fade-left"
                     className={classNames(
                       "w-[275px] h-[217px]",
                       "sm:w-[233px] sm:h-[183px]",
@@ -124,17 +127,19 @@ const AboutSection1 = () => {
                   )}
                 >
                   <Image
-                    src={"/image/landing/blank-img.svg"}
+                    src={"/image/landing/deeper insights.svg"}
                     alt="sub1"
                     width={0}
                     height={0}
+                    data-aos-delay="300"
+                    data-aos="fade-right"
                     className={classNames(
                       "w-[250px] h-[222px]",
                       "sm:w-[206px] sm:h-[206px]",
                       "2xl:w-[400px] 2xl:h-[400px]"
                     )}
                   />
-                  <div className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[40%]">
+                  <div data-aos="fade-left" data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[40%]">
                     <Image
                       src={"/image/landing/icon8.svg"}
                       alt="icon"
@@ -169,7 +174,7 @@ const AboutSection1 = () => {
                     "sm:flex-row sm:justify-between sm:items-center"
                   )}
                 >
-                  <div className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[45%]">
+                  <div data-aos="fade-right" data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[45%]">
                     <Image
                       src={"/image/landing/icon8.svg"}
                       alt="icon"
@@ -198,10 +203,12 @@ const AboutSection1 = () => {
                     </p>
                   </div>
                   <Image
-                    src={"/image/landing/blank-img.svg"}
+                    src={"/image/landing/secure collaboration.svg"}
                     alt="sub1"
                     width={0}
                     height={0}
+                    data-aos-delay="300"
+                    data-aos="fade-left"
                     className={classNames(
                       "w-[250px] h-[222px]",
                       "sm:w-[206px] sm:h-[206px]",

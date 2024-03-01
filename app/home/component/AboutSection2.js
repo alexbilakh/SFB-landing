@@ -43,8 +43,9 @@ const AboutSection1 = () => {
             </span>
           </div>
           <h2
+            data-aos="fade-up"
             className={classNames(
-              "text-[24px] text-white font-semibold font-inter",
+              "text-[24px] font-semibold font-inter w-full tracking-[-2.24px]",
               "sm:text-[26px]",
               "2xl:text-[50px]"
             )}
@@ -57,7 +58,7 @@ const AboutSection1 = () => {
               "sm:flex-row sm:justify-between sm:items-center"
             )}
           >
-            <div className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
+            <div data-aos="fade-right" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
               <Image
                 src={"/image/landing/icon4.svg"}
                 alt="icon"
@@ -86,12 +87,14 @@ const AboutSection1 = () => {
               </p>
             </div>
             <Image
-              src={"/image/landing/sub-img1.svg"}
+              src={"/image/landing/auto response.png"}
               alt="sub1"
               width={0}
               height={0}
+              sizes="100vw"
+              data-aos="fade-left"
               className={classNames(
-                "w-[275px] h-[217px] shadow-md rounded-xl",
+                "w-[275px] h-[217px]",
                 "sm:w-[233px] sm:h-[183px]",
                 "2xl:w-[452px] 2xl:h-[356px]"
               )}
@@ -105,17 +108,20 @@ const AboutSection1 = () => {
             )}
           >
             <Image
-              src={"/image/landing/blank-img.svg"}
+              src={"/image/landing/email notification.png"}
               alt="sub1"
               width={0}
               height={0}
+              sizes="100vw"
+              data-aos-delay="300"
+              data-aos="fade-right"
               className={classNames(
-                "w-[250px] h-[222px] shadow-md rounded-lg",
+                "w-[250px] h-[222px]",
                 "sm:w-[206px] sm:h-[206px]",
                 "2xl:w-[400px] 2xl:h-[400px]"
               )}
             />
-            <div className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
+            <div data-aos="fade-left"  data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[40%]">
               <Image
                 src={"/image/landing/icon5.svg"}
                 alt="icon"
@@ -125,7 +131,7 @@ const AboutSection1 = () => {
               />
               <h3
                 className={classNames(
-                  "text-[20px] font-semibold text-black font-inter",
+                  "text-[20px] font-semibold text-black font-inter w-full",
                   "sm:text-[25px]",
                   "2xl:text-[48px]"
                 )}
@@ -150,7 +156,7 @@ const AboutSection1 = () => {
               "sm:flex-row sm:justify-between sm:items-center"
             )}
           >
-            <div className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
+            <div data-aos="fade-right"  data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
               <Image
                 src={"/image/landing/icon6.svg"}
                 alt="icon"
@@ -180,12 +186,15 @@ const AboutSection1 = () => {
               </p>
             </div>
             <Image
-              src={"/image/landing/blank-img.svg"}
+              src={"/image/landing/prevent spam.png"}
               alt="sub1"
               width={0}
               height={0}
+              sizes="100vw"
+              data-aos-delay="300"
+              data-aos="fade-left"
               className={classNames(
-                "w-[250px] h-[222px] shadow-md rounded-lg",
+                "w-[250px] h-[222px]",
                 "sm:w-[206px] sm:h-[206px]",
                 "2xl:w-[400px] 2xl:h-[400px]"
               )}

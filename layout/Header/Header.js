@@ -31,11 +31,11 @@ const Header = () => {
             "w-[109px] h-[40px]"
           )}
         />
-        <div className="flex md:gap-8 sm:gap-4 gap-3 items-center">
+        <div className="flex md:gap-8 sm:gap-4 gap-3 items-start sm:items-center">
           <Button
             title={"Go to My Workspace"}
             style={
-              "md:rounded-lg text-white font-inter md:px-6 bg-[#6F2268] md:h-[50px] md:text-[16px] sm:px-3 sm:h-[25px] sm:text-[8px] h-[40px] px-4 text-[14px] rounded-md"
+              "md:rounded-lg text-white font-inter bg-[#6F2268] md:h-[50px] md:text-[16px] sm:px-3 sm:h-[25px] sm:text-[8px] h-[40px] px-4 text-[10px] rounded-md"
             }
             onClick={handleClick}
           />

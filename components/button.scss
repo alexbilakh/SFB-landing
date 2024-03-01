@@ -1,0 +1,32 @@
+/* Variables */
+$darkPink: #6F2268;
+
+/* General */
+
+/* Button Group */
+.button-group {
+  text-align: center;
+
+  a {
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+/* Button Styling */
+.btn {
+  color: #fff;
+}
+
+.btn1 {
+  background-color: $darkPink;
+
+  &:hover {
+    box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 5px $darkPink,
+      0px 0px 0px 10px white, 0px 0px 0px 10.5px $darkPink;
+    background: white;
+    color: $darkPink;
+  }
+}

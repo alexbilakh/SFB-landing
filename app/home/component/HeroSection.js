@@ -16,7 +16,7 @@ const HeroSection = () => {
         "2xl:pl-[130px] 2xl:pr-0 2xl:pt-[95px] 2xl:pb-[192px] 2xl:gap-[50px] 2xl:flex-row"
       )}
     >
-      <div className={classNames("flex flex-col font-inter")}>
+      <div data-aos="fade-up" className={classNames("flex flex-col font-inter")}>
         <h1
           className={classNames(
             "text-[56px] font-[900] items-center gap-3 flex-col hidden",
@@ -96,6 +96,7 @@ const HeroSection = () => {
         width={0}
         height={0}
         sizes="100vw"
+        data-aos="fade-left"
         className="w-full h-full 2xl:block hidden"
       />
       <Image 
@@ -112,7 +113,7 @@ const HeroSection = () => {
         width={0}
         height={0}
         sizes="100vw"
-        className="w-full h-full sm:hidden block"
+        className="w-full h-full sm:hidden block pt-[60px]"
       />
     </div>
   );
