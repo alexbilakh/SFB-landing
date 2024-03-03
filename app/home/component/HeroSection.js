@@ -110,7 +110,7 @@ const HeroSection = () => {
         data-aos="fade-left"
         className={classNames(
           "bg-[url(/image/landing/hero-mobile.svg)] bg-cover w-full h-[700px] mt-24 flex flex-col justify-center items-center pt-[60px] px-5",
-          "sm:bg-[url(/image/landing/video-background.png)] bg-cover sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[3px] sm:pl-[25px] sm:pr-0",
+          "sm:bg-[url(/image/landing/video-background.png)] bg-cover sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[8px] sm:pl-[25px] sm:pr-0",
           "lg:h-[541px]",
           "2xl:bg-[url(/image/landing/video-background.png)] bg-cover 2xl:w-4/5 2xl:h-[693px] 2xl:pt-[25px] 2xl:pb-[3px] 2xl:pl-[25px]"
         )}
@@ -122,12 +122,12 @@ const HeroSection = () => {
           }
         >
           <div className="flex gap-[10px]">
-            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#FA85A4]"></div>
-            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#FFE56E]"></div>
-            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#52E282]"></div>
+            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#FA85A4] md:w-1.5 md:h-1.5 xl:w-2.5 xl:h-2.5" />
+            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#FFE56E] md:w-1.5 md:h-1.5 xl:w-2.5 xl:h-2.5" />
+            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#52E282] md:w-1.5 md:h-1.5 xl:w-2.5 xl:h-2.5" />
           </div>
           <div className="bg-[#F7F9FC] rounded-2xl text-black basis-[70%] flex justify-center">
-            <span className="text-[10px] font-medium">sfb-app.com</span>
+            <span className="text-[8px] xl:text-[10px] font-medium">sfb-app.com</span>
           </div>
         </div>
         <Image
