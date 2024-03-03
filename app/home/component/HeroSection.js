@@ -109,8 +109,8 @@ const HeroSection = () => {
       <div
         data-aos="fade-left"
         className={classNames(
-          "bg-[url(/image/landing/hero-mobile.svg)] bg-cover w-full h-[700px] mt-24 flex flex-col justify-center items-center pt-[60px] px-5",
-          "sm:bg-[url(/image/landing/video-background.png)] bg-cover sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[8px] sm:pl-[25px] sm:pr-0",
+          "bg-[url(/image/landing/hero-mobile.svg)] w-[335px] h-[700px] bg-cover mt-24 flex flex-col justify-center items-center pt-[60px] px-3 pb-3 m-auto",
+          "sm:bg-[url(/image/landing/video-background.png)] bg-cover sm:w-full sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[8px] sm:pl-[25px] sm:pr-0",
           "lg:h-[541px]",
           "2xl:bg-[url(/image/landing/video-background.png)] bg-cover 2xl:w-4/5 2xl:h-[693px] 2xl:pt-[25px] 2xl:pb-[3px] 2xl:pl-[25px]"
         )}
@@ -136,7 +136,7 @@ const HeroSection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full h-full"
+          className="w-full h-full rounded-md"
         />
         <button className="sm:ml-10 absolute" onClick={() => setOpen(true)}>
           <Image
