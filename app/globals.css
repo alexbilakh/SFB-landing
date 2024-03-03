@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import "tailwindcss/tailwind.css";
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
+/* @import "../node_modules/react-modal-video/scss/modal-video.scss"; */
 
   root {
   --foreground-rgb: 0, 0, 0;

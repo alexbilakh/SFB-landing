@@ -148,6 +148,7 @@ const HowItWorksSection = () => {
         className={classNames(
           "pt-0 pb-10 flex-col-reverse",
           "sm:pt-[100px] sm:px-9 sm:flex-col",
+          "lg:px-[70px]",
           "2xl:pt-[100px] 2xl:px-[310px]"
         )}
       >
@@ -177,7 +178,7 @@ const HowItWorksSection = () => {
             </span>
             <h2
               data-aos="zoom-in"
-              className="2xl:text-[48px] 2xl:font-semibold text-[20px] font-semibold w-[110%] mt-6"
+              className="lg:text-[48px] lg:font-semibold text-[20px] font-semibold w-[110%] mt-6"
             >
               Push the limits  <br />& Connect with your favorite apps 
             </h2>
@@ -207,7 +208,7 @@ const HowItWorksSection = () => {
             </span>
             <h2
               data-aos="zoom-in"
-              className="2xl:text-[48px] 2xl:font-medium mt-6 w-10/12 text-[20px] font-semibold"
+              className="lg:text-[48px] lg:font-medium mt-6 w-10/12 text-[20px] font-semibold"
             >
               Tailor Your Workspace, Simplify Organization, & Foster
               Collaboration
@@ -222,13 +223,13 @@ const HowItWorksSection = () => {
             </p>
           </div>
           <div className="flex flex-col flex-1 gap-8">
-            <div className="flex flex-col sm:flex-row justify-between mt-4 sm:mt-8 gap-4 2xl:gap-8">
+            <div className="flex flex-col sm:flex-row justify-between mt-4 sm:mt-8 gap-4 lg:gap-8">
               <div
                 data-aos="zoom-in-right"
                 className={classNames(
                   "rounded-[12px] shadow-md p-4 flex flex-col flex-1",
                   "sm:rounded-[8px] sm:shadow-md sm:py-3 sm:px-4",
-                  "2xl:rounded-[16px] 2xl:shadow-lg 2xl:py-8 2xl:px-6"
+                  "lg:rounded-[16px] lg:shadow-lg lg:py-8 lg:px-6"
                 )}
               >
                 <h4 className="text-[16px] text-[#6F2268] leading-6">
@@ -243,7 +244,7 @@ const HowItWorksSection = () => {
                   alt="sub"
                   width={0}
                   height={0}
-                  className="w-[220px] h-[48px] sm:w-[113px] sm:h-[24px] 2xl:w-[220px] 2xl:h-[48px] mt-10"
+                  className="w-[220px] h-[48px] sm:w-[113px] sm:h-[24px] lg:w-[220px] lg:h-[48px] mt-10"
                 />
               </div>
               <div
@@ -252,7 +253,7 @@ const HowItWorksSection = () => {
                 className={classNames(
                   "rounded-[12px] shadow-md p-4 flex flex-col flex-1",
                   "sm:rounded-[8px] sm:shadow-md sm:py-3 sm:px-4",
-                  "2xl:rounded-[16px] 2xl:shadow-lg 2xl:py-8 2xl:px-6"
+                  "lg:rounded-[16px] lg:shadow-lg lg:py-8 lg:px-6"
                 )}
               >
                 <h4 className="text-[16px] text-[#6F2268] leading-6">
@@ -271,7 +272,7 @@ const HowItWorksSection = () => {
               className={classNames(
                 "rounded-[12px] shadow-md p-4 flex flex-col flex-1",
                 "sm:rounded-[8px] sm:shadow-md sm:py-3 sm:px-4 sm:flex-row items-end justify-between",
-                "2xl:rounded-[16px] 2xl:shadow-lg 2xl:py-8 2xl:px-6"
+                "lg:rounded-[16px] lg:shadow-lg lg:py-8 lg:px-6"
               )}
             >
               <div className="flex flex-col gap-2 basis-[46%]">
@@ -291,7 +292,7 @@ const HowItWorksSection = () => {
                 className={classNames(
                   "w-[102px] h-[50px]",
                   "sm:w-[81px] sm:h-[40px]",
-                  "2xl:w-[157px] 2xl:h-[77px]"
+                  "lg:w-[157px] lg:h-[77px]"
                 )}
               />
             </div>

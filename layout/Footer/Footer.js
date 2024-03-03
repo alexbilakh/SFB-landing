@@ -21,7 +21,7 @@ const Footer = () => {
               "sm:gap-3 sm:items-start",
               "lg:gap-6"
             )}
-          > 
+          >
             <Image
               src={"/image/landing/logo.svg"}
               alt="logo"
@@ -51,10 +51,18 @@ const Footer = () => {
               <h3 className="font-medium text-[12px] text-[#242424] sm:tracking-[-0.17px] lg:text-[20px] lg:tracking-[-0.32px]">
                 Support
               </h3>
-              <a className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-3 lg:mt-6 lg:text-[16px] lg:tracking-[-0.32px]">
+              <a 
+                className="w-max cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-3 lg:mt-6 lg:text-[16px] lg:tracking-[-0.32px]"
+                href="https://sustainablestar.com.sa/privacy-policy/"
+                target="_blank"
+              >
                 Privacy Policy
               </a>
-              <a className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-2 lg:mt-4 lg:text-[16px] lg:tracking-[-0.32px]">
+              <a 
+                className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-2 lg:mt-4 lg:text-[16px] lg:tracking-[-0.32px]"
+                href="https://sustainablestar.com.sa/terms-and-conditions/"
+                target="_blank"
+              >
                 Terms of Use
               </a>
             </div>
@@ -72,7 +80,11 @@ const Footer = () => {
                 />
                 info@sustainablestar.com
               </a>
-              <a className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-2 lg:mt-4 lg:text-[16px] lg:tracking-[-0.32px] flex items-center gap-[5px]">
+              <a 
+                className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-2 lg:mt-4 lg:text-[16px] lg:tracking-[-0.32px] flex items-center gap-[5px]"
+                href="https://www.linkedin.com/company/sustainable-star-sa"
+                target="_blank"
+              >
                 <Image
                   src={"/image/landing/linkedin-icon.svg"}
                   alt="gmail"
@@ -82,7 +94,11 @@ const Footer = () => {
                 />
                 sustainable-star-sa
               </a>
-              <a className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-2 lg:mt-4 lg:text-[16px] lg:tracking-[-0.32px] flex items-center gap-[5px]">
+              <a 
+                className="cursor-pointer underline text-[12px] sm:text-[10px] sm:tracking-[0.17px] tracking-[-0.32px] mt-2 lg:mt-4 lg:text-[16px] lg:tracking-[-0.32px] flex items-center gap-[5px]"
+                href="https://twitter.com/sustainableSSA"
+                target="_blank"
+              >
                 <Image
                   src={"/image/landing/twitter-icon.svg"}
                   alt="gmail"
@@ -97,16 +113,16 @@ const Footer = () => {
         </div>
         <div className="flex items-center font-inter text-[#666666] text-[10px] leading-2 sm:text-[8.25px] sm:leading-1 lg:text-[16px] lg:leading-2 gap-2 pt-[25px]">
           <span>© 2024 Sustainable Star</span>
-          <Image 
-            src={'/image/landing/stick.svg'}
+          <Image
+            src={"/image/landing/stick.svg"}
             alt="stick"
             width={0}
             height={0}
             className="w-[1.5px] h-[14px] sm:w-[0.77px] sm:h-[11.34px] lg:w-[1.5px] lg:h-[22px]"
           />
           <span>Powered by </span>
-          <Image 
-            src={'/image/landing/colored-logo.svg'}
+          <Image
+            src={"/image/landing/colored-logo.svg"}
             alt="colored logo"
             width={0}
             height={0}

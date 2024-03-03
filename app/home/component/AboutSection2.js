@@ -10,6 +10,7 @@ const AboutSection1 = () => {
         className={classNames(
           "pt-0 pb-10 px-5",
           "sm:py-[34px] sm:px-9",
+          "lg:px-[70px] lg:py-[90px]",
           "2xl:py-10 2xl:px-[310px]"
         )}
       >
@@ -17,10 +18,10 @@ const AboutSection1 = () => {
           className={classNames(
             "w-full h-auto py-6 px-4 bg-white shadow-md rounded-[16px] relative overflow-hidden flex flex-col gap-6",
             "sm:py-7 sm:px-[54px] rounded-[12px] sm:gap-7",
-            "2xl:px-[100px] 2xl:py-[56px] rounded-[24px] 2xl:gap-10"
+            "lg:px-[100px] lg:py-[56px] rounded-[24px] lg:gap-10"
           )}
         >
-          <div className="flex items-center gap-[6px] 2xl:gap-3">
+          <div className="flex items-center gap-[6px] lg:gap-3">
             <Image
               src={"/image/landing/lighting.svg"}
               alt="lighting"
@@ -29,14 +30,14 @@ const AboutSection1 = () => {
               className={classNames(
                 "w-[11.35px] h-[15px]",
                 "sm:w-[9.5px] sm:h-3",
-                "2xl:w-[18px] 2xl:h-6"
+                "lg:w-[18px] lg:h-6"
               )}
             />
             <span
               className={classNames(
                 "uppercase text-[12px] text-[#F09A37] font-inter",
                 "sm:text-[8px]",
-                "2xl:text-[16px]"
+                "lg:text-[16px]"
               )}
             >
               Customise
@@ -47,7 +48,7 @@ const AboutSection1 = () => {
             className={classNames(
               "text-[24px] font-semibold font-inter w-full tracking-[-2.24px]",
               "sm:text-[26px]",
-              "2xl:text-[50px]"
+              "lg:text-[50px]"
             )}
           >
             What Makes Sustainable Form Builder Secure?
@@ -58,19 +59,19 @@ const AboutSection1 = () => {
               "sm:flex-row sm:justify-between sm:items-center"
             )}
           >
-            <div data-aos="fade-right" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
+            <div data-aos="fade-right" className="flex flex-col gap-2 sm:gap-3 lg:gap-6 font-inter basis-[35%]">
               <Image
                 src={"/image/landing/icon4.svg"}
                 alt="icon"
                 width={0}
                 height={0}
-                className="w-10 h-10 2xl:w-[76px] 2xl:h-[76px]"
+                className="w-10 h-10 lg:w-[76px] lg:h-[76px]"
               />
               <h3
                 className={classNames(
                   "text-[20px] font-semibold text-black font-inter",
                   "sm:text-[25px]",
-                  "2xl:text-[48px]"
+                  "lg:text-[48px]"
                 )}
               >
                 Auto Response
@@ -79,7 +80,7 @@ const AboutSection1 = () => {
                 className={classNames(
                   "text-[12px] font-medium text-[#979797] w-11/12",
                   "sm:text-[8px]",
-                  "2xl:text-[16px]"
+                  "lg:text-[16px]"
                 )}
               >
                 Ask for any data type of information, receive files, and even
@@ -96,7 +97,7 @@ const AboutSection1 = () => {
               className={classNames(
                 "w-[275px] h-[217px]",
                 "sm:w-[233px] sm:h-[183px]",
-                "2xl:w-[452px] 2xl:h-[356px]"
+                "lg:w-[452px] lg:h-[356px]"
               )}
             />
           </div>
@@ -104,7 +105,7 @@ const AboutSection1 = () => {
             className={classNames(
               "flex gap-4 flex-col-reverse",
               "sm:flex-row sm:items-center",
-              "2xl:gap-[50px]"
+              "lg:gap-[50px]"
             )}
           >
             <Image
@@ -118,22 +119,22 @@ const AboutSection1 = () => {
               className={classNames(
                 "w-[250px] h-[222px]",
                 "sm:w-[206px] sm:h-[206px]",
-                "2xl:w-[400px] 2xl:h-[400px]"
+                "lg:w-[400px] lg:h-[400px]"
               )}
             />
-            <div data-aos="fade-left"  data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[40%]">
+            <div data-aos="fade-left"  data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 lg:gap-6 font-inter basis-[40%]">
               <Image
                 src={"/image/landing/icon5.svg"}
                 alt="icon"
                 width={0}
                 height={0}
-                className="w-10 h-10 2xl:w-[76px] 2xl:h-[76px]"
+                className="w-10 h-10 lg:w-[76px] lg:h-[76px]"
               />
               <h3
                 className={classNames(
                   "text-[20px] font-semibold text-black font-inter w-full",
                   "sm:text-[25px]",
-                  "2xl:text-[48px]"
+                  "lg:text-[48px]"
                 )}
               >
                 Email Notification
@@ -142,7 +143,7 @@ const AboutSection1 = () => {
                 className={classNames(
                   "text-[12px] font-medium text-[#979797] w-11/12",
                   "sm:text-[8px]",
-                  "2xl:text-[16px]"
+                  "lg:text-[16px]"
                 )}
               >
                 No need to check for new submissions, you will receive an email
@@ -156,19 +157,19 @@ const AboutSection1 = () => {
               "sm:flex-row sm:justify-between sm:items-center"
             )}
           >
-            <div data-aos="fade-right"  data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 2xl:gap-6 font-inter basis-[35%]">
+            <div data-aos="fade-right"  data-aos-delay="300" className="flex flex-col gap-2 sm:gap-3 lg:gap-6 font-inter basis-[35%]">
               <Image
                 src={"/image/landing/icon6.svg"}
                 alt="icon"
                 width={0}
                 height={0}
-                className="w-10 h-10 2xl:w-[76px] 2xl:h-[76px]"
+                className="w-10 h-10 lg:w-[76px] lg:h-[76px]"
               />
               <h3
                 className={classNames(
                   "text-[20px] font-semibold text-black font-inter",
                   "sm:text-[25px]",
-                  "2xl:text-[48px]"
+                  "lg:text-[48px]"
                 )}
               >
                 Prevent Spam
@@ -177,7 +178,7 @@ const AboutSection1 = () => {
                 className={classNames(
                   "text-[12px] font-medium text-[#979797] w-11/12",
                   "sm:text-[8px]",
-                  "2xl:text-[16px]"
+                  "lg:text-[16px]"
                 )}
               >
                 Stop unwanted submissions and protect your data with our
@@ -196,7 +197,7 @@ const AboutSection1 = () => {
               className={classNames(
                 "w-[250px] h-[222px]",
                 "sm:w-[206px] sm:h-[206px]",
-                "2xl:w-[400px] 2xl:h-[400px]"
+                "lg:w-[400px] lg:h-[400px]"
               )}
             />
           </div>
