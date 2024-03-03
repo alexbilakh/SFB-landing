@@ -121,14 +121,16 @@ const Footer = () => {
             className="w-[1.5px] h-[14px] sm:w-[0.77px] sm:h-[11.34px] lg:w-[1.5px] lg:h-[22px]"
           />
           <span>Powered by </span>
-          <Image
-            src={"/image/landing/colored-logo.svg"}
-            alt="colored logo"
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="w-[34px] h-[14px] sm:w-[30px] sm:h-3 lg:w-[58px] lg:h-6"
-          />
+          <a href="https://sustainablestar.com.sa" target="_blank">
+            <Image
+              src={"/image/landing/colored-logo.svg"}
+              alt="colored logo"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-[34px] h-[14px] sm:w-[30px] sm:h-3 lg:w-[100px] lg:h-8"
+            />
+          </a>
         </div>
       </div>
     </Container>

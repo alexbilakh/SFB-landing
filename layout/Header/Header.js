@@ -19,7 +19,7 @@ const Header = () => {
           "md:px-[130px] md:py-[20px]"
         )}
       >
-        <a href="https://sustainablestar.com.sa" target="_blank">
+        <a>
           <Image
             src={"/image/landing/logo.svg"}
             alt="logo"

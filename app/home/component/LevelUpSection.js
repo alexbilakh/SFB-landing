@@ -57,7 +57,8 @@ const LevelUpSection = () => {
                     className={classNames(
                       "rounded-[8px] bg-[#6F2268] w-[202px] h-[50px] flex items-center gap-2 justify-center hover:gap-5 transition-all duration-500",
                       "sm:rounded-[4px] sm:w-[120px] sm:h-[37px]",
-                      "xl:rounded-[8px] xl:w-[233px] xl:h-[72px]",
+                      "lg:w-[200px]",
+                      "xl:rounded-[8px] xl:w-[270px] xl:h-[72px]",
                       "2xl:w-[318px]"
                     )}
                     href="https://client.sfb-app.com"

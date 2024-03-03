@@ -78,9 +78,9 @@ const HeroSection = () => {
           Form Builder
         </h1>
         <h1 className="text-[56px] font-[900] sm:hidden">
-          Secure.
-          <br /> Smart.
-          <br /> Insightful.
+          Secure<span className="text-[#6F2268]">.</span>
+          <br /> Smart<span className="text-[#6F2268]">.</span>
+          <br /> Insightful<span className="text-[#6F2268]">.</span>
         </h1>
         <p
           className={classNames(
@@ -101,24 +101,46 @@ const HeroSection = () => {
       <ModalVideo
         channel="youtube"
         autoplay
-        youtube={{ autoplay: 1,mute:1 }}
+        youtube={{ autoplay: 1, mute: 1 }}
         isOpen={isOpen}
         videoId="L61p2uyiMSo"
         onClose={() => setOpen(false)}
       />
-
       <div
         data-aos="fade-left"
         className={classNames(
-          "bg-[url(/image/landing/hero-mobile.svg)] bg-cover w-full h-[700px] mt-24 flex justify-center items-center",
-          "sm:bg-[url(/image/landing/hero-tablet.svg)] sm:h-[226px] sm:mt-0",
+          "bg-[url(/image/landing/hero-mobile.svg)] bg-cover w-full h-[700px] mt-24 flex flex-col justify-center items-center pt-[60px] px-5",
+          "sm:bg-[url(/image/landing/video-background.png)] bg-cover sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[3px] sm:pl-[25px] sm:pr-0",
           "lg:h-[541px]",
-          "2xl:bg-[url(/image/landing/hero-full.svg)] 2xl:w-4/5 2xl:h-[693px]"
+          "2xl:bg-[url(/image/landing/video-background.png)] bg-cover 2xl:w-4/5 2xl:h-[693px] 2xl:pt-[25px] 2xl:pb-[3px] 2xl:pl-[25px]"
         )}
+        style={{ borderBottomLeftRadius: "36px" }}
       >
-        <button className="sm:ml-10" onClick={() => setOpen(true)}>
-          <Image 
-            src={'/image/landing/player-icon.png'}
+        <div
+          className={
+            "w-full h-12 bg-white rounded-tl-[24px] sm:flex items-center pl-6 shadow-md font-inter 2xl:gap-[165px] lg:gap-[125px] sm:gap-[65px] hidden"
+          }
+        >
+          <div className="flex gap-[10px]">
+            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#FA85A4]"></div>
+            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#FFE56E]"></div>
+            <div className="w-2.5 h-2.5 rounded-[50%] bg-[#52E282]"></div>
+          </div>
+          <div className="bg-[#F7F9FC] rounded-2xl text-black basis-[70%] flex justify-center">
+            <span className="text-[10px] font-medium">sfb-app.com</span>
+          </div>
+        </div>
+        <Image
+          src={"/image/landing/video-preview.png"}
+          alt="video"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-full"
+        />
+        <button className="sm:ml-10 absolute" onClick={() => setOpen(true)}>
+          <Image
+            src={"/image/landing/player-icon.png"}
             alt="player"
             width={100}
             height={100}
