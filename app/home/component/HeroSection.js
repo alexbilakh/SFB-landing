@@ -109,16 +109,15 @@ const HeroSection = () => {
       <div
         data-aos="fade-left"
         className={classNames(
-          "bg-[url(/image/landing/hero-mobile.svg)] w-[335px] h-[700px] bg-cover mt-24 flex flex-col justify-center items-center pt-[60px] px-3 pb-3 m-auto",
-          "sm:bg-[url(/image/landing/video-background.png)] bg-cover sm:w-full sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[8px] sm:pl-[25px] sm:pr-0",
-          "lg:h-[541px]",
+          "bg-[url(/image/landing/video-background.png)] bg-cover w-[full] mt-24 flex flex-col justify-center items-center pt-4 pb-2 px-3 m-auto rounded-tr-[12px]",
+          "sm:w-full sm:h-[226px] sm:mt-0 sm:pt-[25px] sm:pb-[8px] sm:pl-[25px] sm:pr-0 sm:rounded-tr-[0px]",
+          "lg:h-[541px] lg:rounded-bl-[36px]",
           "2xl:bg-[url(/image/landing/video-background.png)] bg-cover 2xl:w-4/5 2xl:h-[693px] 2xl:pt-[25px] 2xl:pb-[3px] 2xl:pl-[25px]"
         )}
-        style={{ borderBottomLeftRadius: "36px" }}
       >
         <div
           className={
-            "w-full h-12 bg-white rounded-tl-[24px] sm:flex items-center pl-6 shadow-md font-inter 2xl:gap-[165px] lg:gap-[125px] sm:gap-[65px] hidden"
+            "w-full sm:h-12 h-8 bg-white rounded-tl-[12px] rounded-tr-[12px] sm:rounded-tr-[0px] sm:rounded-tl-[24px] flex items-center pl-6 shadow-md font-inter 2xl:gap-[165px] lg:gap-[125px] sm:gap-[65px] gap-2"
           }
         >
           <div className="flex gap-[10px]">
@@ -127,7 +126,9 @@ const HeroSection = () => {
             <div className="w-2.5 h-2.5 rounded-[50%] bg-[#52E282] md:w-1.5 md:h-1.5 xl:w-2.5 xl:h-2.5" />
           </div>
           <div className="bg-[#F7F9FC] rounded-2xl text-black basis-[70%] flex justify-center">
-            <span className="text-[8px] xl:text-[10px] font-medium">sfb-app.com</span>
+            <span className="text-[8px] xl:text-[10px] font-medium">
+              sfb-app.com
+            </span>
           </div>
         </div>
         <Image
@@ -136,7 +137,7 @@ const HeroSection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full h-full rounded-md"
+          className="w-full h-full sm:rounded-tl-md"
         />
         <button className="sm:ml-10 absolute" onClick={() => setOpen(true)}>
           <Image
